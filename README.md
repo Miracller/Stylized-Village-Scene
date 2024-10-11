@@ -15,12 +15,6 @@ https://github.com/user-attachments/assets/4363ae44-e18e-47dc-9d5d-69978d1514b4
 ## Technical Details
 
  1. Overall
-    
-    This scene mainly contains the following parts:
-    - Terrain
-    - Buildings
-    - Foliages
-    - Waters
 
     Tools & softwares:
     - Unity
@@ -28,11 +22,17 @@ https://github.com/user-attachments/assets/4363ae44-e18e-47dc-9d5d-69978d1514b4
     - Blender for preview and modeling
     - Substance Designer for producing textures
     
+    This scene mainly contains the following parts:
+    - Terrain
+    - Buildings
+    - Foliages
+    - Waters
+    
     Our artists used **UE5** to edit the terrain and foliages parts, so I needed to use **UE5** to export assets into fbx format and then imported into Unity. In this stage, I also used **Blender** to adjust assets.
 
     Then I arranged every asset to its coherent position and added suitable components (like the Mesh Renderer or C# scripts) in Unity.
 
-1. Shader part
+2. Shader part
    
      After that, I added shaders to each part of the scene. In details:
     - the tree leaves need a SSS shader, while tree barks need a tiling shader;
@@ -47,7 +47,7 @@ https://github.com/user-attachments/assets/4363ae44-e18e-47dc-9d5d-69978d1514b4
     ![shader_weed](https://github.com/user-attachments/assets/cc2270dd-3e1b-45e9-a7c6-b27151134b19)
     
 
-4. Shadows & lightmap
+3. Shadows & lightmap
    
     Next, I set the lights and cameras and adjusted the shadows (mainly cascade shadows). For artifacts, I had to correct the ShadowCaster part in shaders.
    
@@ -59,7 +59,7 @@ https://github.com/user-attachments/assets/4363ae44-e18e-47dc-9d5d-69978d1514b4
     ![lightprobes](https://github.com/user-attachments/assets/98041260-8352-46f8-9fbe-eba570e8e503)
 
   
-5. VFX & postprocessing
+4. VFX & postprocessing
 
    I added some height fogs into the scene to make distant objects appear more hazy.
 
