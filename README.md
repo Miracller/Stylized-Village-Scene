@@ -21,12 +21,18 @@ https://github.com/user-attachments/assets/4363ae44-e18e-47dc-9d5d-69978d1514b4
     - Buildings
     - Foliages
     - Waters
-      
+
+    Tools & softwares:
+    - Unity
+    - UE5 for terrain, foliages and buildings assets
+    - Blender for preview and modeling
+    - Substance Designer for producing textures
+    
     Our artists used **UE5** to edit the terrain and foliages parts, so I needed to use **UE5** to export assets into fbx format and then imported into Unity. In this stage, I also used **Blender** to adjust assets.
 
     Then I arranged every asset to its coherent position and added suitable components (like the Mesh Renderer or C# scripts) in Unity.
 
-2. Shader part
+1. Shader part
    
      After that, I added shaders to each part of the scene. In details:
     - the tree leaves need a SSS shader, while tree barks need a tiling shader;
