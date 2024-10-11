@@ -37,15 +37,22 @@ https://github.com/user-attachments/assets/4363ae44-e18e-47dc-9d5d-69978d1514b4
 4. Shadows & lightmap
    
     Next, I set the lights and cameras and adjusted the shadows (mainly cascade shadows). For artifacts, I had to change the ShadowCaster part in shaders.
+   
     ![shadow1](https://github.com/user-attachments/assets/3a651040-b19e-4290-9718-33e2f35621a2)
 
 
     I used lightmap to bake large objects in the scene and light probes for smaller objects to keep bake times down.
+   
     ![lightprobes](https://github.com/user-attachments/assets/98041260-8352-46f8-9fbe-eba570e8e503)
 
   
-5. VFX & postprocessing
+6. VFX & postprocessing
 
+   I added some height fogs into the scene to make distant objects appear more hazy.
+
+   I added falling leaves VFX.
+
+   Fianlly, I added Color Grading, Blooming, AO, Exposure as postprocessing to the scene to enhance the visual experience.
    
 
     
